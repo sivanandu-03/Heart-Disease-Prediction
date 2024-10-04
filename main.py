@@ -1,5 +1,4 @@
 import pickle
-from streamlit_option_menu import option_menu
 import streamlit as st
 
 heart_disease_model = pickle.load(open('heart_disease_model.sav','rb'))
